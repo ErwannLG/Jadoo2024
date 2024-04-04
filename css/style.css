@@ -1,0 +1,103 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+
+body {
+    min-height: 100vh;
+}
+
+img,
+picture,
+svg,
+video {
+    display: block;
+    max-width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 100px;
+    background-color: rgb(246, 247, 242);
+    position: sticky;
+    top: 0;
+}
+
+.logos {
+    display: flex;
+    gap: 16px;
+}
+
+.navigation {
+    display: flex;
+    gap: 30px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    background-image: url(../img/illustration_principale.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content {
+    padding: 4rem 100px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.content p {
+    width: 30%;
+    line-height: 1.5;
+    color: #bfc0cd;
+}
+
+h3 {
+    font-family: "poppins-bold";
+    font-size: 1.25em;
+    text-transform: uppercase;
+    color: salmon;
+}
+
+h1 {
+    font-family: "volkhov-bold";
+    font-size: 5.25em;
+}
+
+p {
+    font-family: "poppins-regular";
+    font-size: 1em;
+}
+
+button {
+    font-family: "poppins-bold";
+    background-color: #f1a501;
+    color: white;
+    border: none;
+    padding: 1em 2em;
+    border-radius: 10px;
+    width: fit-content;
+}

@@ -27,7 +27,7 @@ header {
     justify-content: space-between;
     align-items: center;
     height: 74px;
-    padding: 1rem 100px;
+    padding: 1rem 150px;
     background-color: #ffffff;
     position: sticky;
     top: 0;
@@ -59,14 +59,14 @@ a:hover {
     text-decoration: underline;
 }
 
-section {
+.hero {
     background-image: url(../img/illustration_principale.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .content {
-    padding: 8rem 100px;
+    padding: 8rem 150px;
     color: white;
     display: flex;
     flex-direction: column;

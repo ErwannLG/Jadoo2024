@@ -26,8 +26,9 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 74px;
     padding: 1rem 100px;
-    background-color: rgb(246, 247, 242);
+    background-color: #ffffff;
     position: sticky;
     top: 0;
 }
@@ -47,6 +48,9 @@ li {
 }
 
 a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: #212832;
     text-decoration: none;
     color: black;
 }
@@ -62,11 +66,11 @@ section {
 }
 
 .content {
-    padding: 4rem 100px;
+    padding: 8rem 100px;
     color: white;
     display: flex;
     flex-direction: column;
-    gap: 2em;
+    gap: 2.4rem;
 }
 
 .content p {
@@ -85,11 +89,15 @@ h3 {
 h1 {
     font-family: "volkhov-bold";
     font-size: 5.25em;
+    line-height: 89px;
+    letter-spacing: -4%;
 }
 
 p {
     font-family: "poppins-regular";
+    font-weight: medium;
     font-size: 1em;
+    color: #bfc0cd;
 }
 
 button {
@@ -100,4 +108,10 @@ button {
     padding: 1em 2em;
     border-radius: 10px;
     width: fit-content;
+    box-shadow: 0px 20px 35px 5px rgba(241, 165, 1, 0.15);
+    transition: transform 0.2s;
+}
+
+button:hover {
+    transform: scale(1.05);
 }
